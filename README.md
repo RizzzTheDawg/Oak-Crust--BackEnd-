@@ -23,7 +23,6 @@ A full-stack web application for a fast-food concept, **Oak Crust**, built with 
 | Database     | MySQL                    |
 | API Style    | REST (JSON)              |
 | Frontend     | HTML, CSS, JavaScript    |
-| Deployment   | (Optional) Render / Heroku / Localhost |
 
 ---
 
