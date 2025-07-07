@@ -185,10 +185,7 @@ form button{
     cursor: pointer;
 }
 .btnAdd{
-    margin-left: 480px;
-}
-.btnEdit{
-    margin-left: 10px;
+    margin-left: 650px;
 }
 .styleTable {
     width: 90%;
@@ -394,5 +391,110 @@ td {
 }
 
 .cartButtons .clearCart:hover {
+    background-color: #e0e0e0;
+}
+
+
+.popupContentAdd {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.95);
+    z-index: 9999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.AddBox {
+    background: white;
+    padding: 30px 25px;
+    border-radius: 16px;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    font-family: 'Poppins', sans-serif;
+}
+
+.topBar2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.topBar h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.close-btn {
+    font-size: 28px;
+    cursor: pointer;
+    color: #444;
+    transition: 0.3s ease;
+}
+
+.close-btn:hover {
+    color: crimson;
+}
+
+.AddItems {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 15px;
+}
+
+.AddItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+}
+
+.AddTotal {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.AddtButtons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.AddButtons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.AddButtons .checkout {
+    background-color: #1e90ff;
+    color: white;
+}
+
+.AddButtons .checkout:hover {
+    background-color: #1c7ed6;
+}
+
+.AddButtons .clearCart {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.AddButtons .clearCart:hover {
     background-color: #e0e0e0;
 }
