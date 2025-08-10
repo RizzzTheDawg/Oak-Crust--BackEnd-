@@ -502,3 +502,81 @@ td {
     justify-content: start;
     z-index: 999;
 }
+.item-form {
+    background-color: #2a2a2a;
+    color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    font-family: 'Playfair Display', serif;
+}
+
+.item-form .form-row {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.item-form label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.item-form select,
+.item-form input {
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    background-color: #3a3a3a;
+    color: #fff;
+    width: 100%;
+}
+
+.item-form select:focus,
+.item-form input:focus {
+    border: 2px solid #ff9800;
+}
+
+.category-field {
+    flex: 1 1 30%;
+}
+
+.name-field {
+    flex: 1 1 45%;
+}
+
+.price-field {
+    flex: 1 1 20%;
+}
+
+.btn-submit {
+    margin-top: 15px;
+    width: 100
+    .btn-submit {
+    margin-top: 15px;
+    width: 100%;
+    padding: 14px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.1s ease-in-out;
+}
+
+.btn-submit:hover {
+    background-color: #e68900;
+    transform: scale(1.02);
+}
+
+.btn-submit:active {
+    transform: scale(0.98);
+}

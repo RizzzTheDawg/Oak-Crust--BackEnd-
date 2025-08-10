@@ -28,6 +28,20 @@
             <div class="topBar">
                 <div class="close-btn" id="close-btn-Add">&times;</div>
             </div>
+            <div class="item-form">
+                <label for="category">Category</label>
+                <select id="category" name="category" class="form-select">
+                    <option value="" disabled selected>Select Category</option>
+                    <option value="burger">Burger</option>
+                    <option value="pizza">Pizza</option>
+                    <option value="drinks">Drinks</option>
+                </select>
+                <label for="itemName">Item Name</label>
+                <input type="text" id="itemName" name="itemName" placeholder="Enter item name">
+                <label for="price">Price ($)</label>
+                <input type="number" id="price" name="price" placeholder="0.00" step="0.01">
+                <button class="btn-submit">Add Item</button>
+            </div>
         </div>
         <div class="btn">
             <a href="#" class="stybtn" style="font-family: 'Playfair Display', serif;" id="btnCrt">Cart</a>

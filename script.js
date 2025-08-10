@@ -40,3 +40,17 @@ function onClick(change) {
 
   totalElement.innerText = newTotal;
 }
+
+document.querySelector('.btn-submit').addEventListener('click', function() {
+    const category = document.getElementById('category').value;
+    const itemName = document.getElementById('itemName').value;
+    const price = document.getElementById('price').value;
+
+    if (!category || !itemName || !price) {
+        alert("Please fill out all fields.");
+        return;
+    }
+
+    console.log(`Category: ${category}, Name: ${itemName}, Price: ${price}`);
+    // Here you can send data to backend
+});
