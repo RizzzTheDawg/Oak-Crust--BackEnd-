@@ -26,9 +26,9 @@ document.getElementById("close-btn-crt2").addEventListener("click",function(){ d
 })
 
 
-document.getElementById("btnAdd").addEventListener("click",function(){ document.querySelector(".popupContenAdd").style.display= "flex";
+document.getElementById("btnAdd").addEventListener("click",function(){ document.querySelector(".popupContentAdd").style.display= "flex";
 })
-document.getElementById("close-btn-Add").addEventListener("click",function(){ document.querySelector(".popupContenAdd").style.display= "none";
+document.getElementById("close-btn-Add").addEventListener("click",function(){ document.querySelector(".popupContentAdd").style.display= "none";
 })
 
 function onClick(change) {
