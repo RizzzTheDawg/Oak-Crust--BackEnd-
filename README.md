@@ -1,7 +1,6 @@
 # 🍔 Oak Crust Web App
 
-A full-stack web application for a fast-food concept, **Oak Crust**, built with a backend-focused architecture using **Python**, **MySQL**, and a RESTful API. The frontend is developed using **HTML**, **CSS**, and **JavaScript** to provide a clean and responsive user experience.
-
+A backend web application for a fast-food concept, **Oak Crust**, built with a backend-focused architecture using **Python**, **MySQL**, and a RESTful API.
 ---
 
 ## 🚀 Features
