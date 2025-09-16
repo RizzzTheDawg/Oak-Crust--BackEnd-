@@ -6,12 +6,9 @@ A full-stack web application for a fast-food concept, **Oak Crust**, built with 
 
 ## 🚀 Features
 
-- ✅ Backend in Python (e.g., Flask/FastAPI)
+- ✅ Backend in Python (e.g., Flask)
 - ✅ RESTful API endpoints for data interaction
 - ✅ MySQL database integration
-- ✅ Dynamic frontend using JavaScript
-- ✅ Responsive UI built with HTML + CSS
-- ✅ Image assets for branding and menu visuals
 
 ---
 
@@ -22,7 +19,6 @@ A full-stack web application for a fast-food concept, **Oak Crust**, built with 
 | Backend      | Python (Flask)           |
 | Database     | MySQL                    |
 | API Style    | REST (JSON)              |
-| Frontend     | HTML, CSS, JavaScript    |
 
 ---
 
